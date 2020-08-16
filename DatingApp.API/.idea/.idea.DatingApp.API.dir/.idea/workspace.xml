@@ -31,9 +31,9 @@
     <setting file="file://$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/appsettings.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,11 +46,11 @@
         <option value="$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" />
         <option value="$PROJECT_DIR$/Dtos/UserForLoginDto.cs" />
         <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
-        <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/DatingApp.API.csproj" />
         <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +114,9 @@
       <workItem from="1596373154217" duration="4301000" />
       <workItem from="1596998425184" duration="3706000" />
       <workItem from="1597419554587" duration="7126000" />
-      <workItem from="1597494295438" duration="12225000" />
+      <workItem from="1597494295438" duration="13524000" />
+      <workItem from="1597564780656" duration="1342000" />
+      <workItem from="1597572930141" duration="1358000" />
     </task>
     <servers />
   </component>
@@ -226,9 +228,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="775" height="424" key="XDebugger.FullValuePopup/0.0.1536.834/1920.0.1280.994@0.0.1536.834" timestamp="1597425500729" />
-    <state x="347" y="0" width="840" height="832" key="search.everywhere.popup" timestamp="1596372390368">
+    <state x="347" y="0" width="840" height="832" key="search.everywhere.popup" timestamp="1597585045606">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="347" y="0" width="840" height="832" key="search.everywhere.popup/0.0.1536.834/1920.0.1280.994@0.0.1536.834" timestamp="1596372390368" />
+    <state x="347" y="0" width="840" height="832" key="search.everywhere.popup/0.0.1536.834/1920.0.1280.994@0.0.1536.834" timestamp="1597585045606" />
   </component>
 </project>

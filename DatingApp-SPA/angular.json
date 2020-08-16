@@ -6,9 +6,9 @@
     "DatingApp-SPA": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
+      "root": "src",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "app/app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
