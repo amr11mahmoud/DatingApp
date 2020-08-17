@@ -52,9 +52,9 @@
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Helpers/Extensions.cs" />
         <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
       </list>
     </option>
   </component>
@@ -121,7 +121,7 @@
       <workItem from="1597494295438" duration="13524000" />
       <workItem from="1597564780656" duration="1342000" />
       <workItem from="1597572930141" duration="6966000" />
-      <workItem from="1597651605044" duration="3283000" />
+      <workItem from="1597651605044" duration="5361000" />
     </task>
     <servers />
   </component>
