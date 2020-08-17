@@ -22,4 +22,9 @@ export class HomeComponent implements OnInit {
     this.registerMode = registerMode;
   }
 
+  loggedIn() {
+    const token = localStorage.getItem('token');
+    return !!token;
+  }
+
 }
