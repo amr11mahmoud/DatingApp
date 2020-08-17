@@ -1,12 +1,12 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">DATING APP</a>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">DATING APP</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
     aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
+    <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
       <li class="nav-item ">
         <a class="nav-link" href="#">Matches</a>
       </li>
@@ -18,23 +18,14 @@
       </li>
     </ul>
 
-    <div *ngIf="loggedIn()" class="fluid-container flex-end">
-      <div class="row">
-        <div class="dropdown dropdown-main mr-3">
-          <a class="dropdown-toggle text-light" href="#" role="button" id="dropdownMenuLink">
-            Welcome User
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Edit Profile</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a>
-          </div>
-        </div>
-        <div>
-          <button class="btn btn-outline-success my-2 my-sm-0 mr-3" type="button" (click)="logout()">
-            Logout
-          </button>
-        </div>
+    <div *ngIf="loggedIn()" class="dropdown dropdown-main mr-3" dropdown>
+      <a class="dropdown-toggle text-light" href="#" role="button" id="dropdownMenuLink" dropdownToggle>
+        Welcome {{authService.decodedToken?.unique_name | titlecase}}
+      </a>
+      <div class="dropdown-menu mt-2" *dropdownMenu>
+        <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Edit Profile</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#" (click)="logout()"><i class="fa fa-sign-out" ></i> Logout</a>
       </div>
     </div>
 
@@ -50,6 +41,8 @@
         Login</button>
     </form>
   </div>
+
+  
 </nav>
 
 <!-- print form validation and other attrs -->
