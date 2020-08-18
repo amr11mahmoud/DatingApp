@@ -11,15 +11,22 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="AuthController.cs" t="Include" />
+        <e p="UsersController.cs" t="Include" />
         <e p="ValuesController.cs" t="Include" />
       </e>
       <e p="Data" t="Include">
         <e p="AuthRepository.cs" t="Include" />
         <e p="DataContext.cs" t="Include" />
+        <e p="DatingRepository.cs" t="Include" />
         <e p="IAuthRepository.cs" t="Include" />
+        <e p="IDatingRepository.cs" t="Include" />
+        <e p="Seed.cs" t="Include" />
+        <e p="UserSeedData.json" t="Include" />
       </e>
       <e p="DatingApp.API.csproj" t="IncludeRecursive" />
       <e p="datingapp.db" t="Include" />
+      <e p="datingapp.db-shm" t="Include" />
+      <e p="datingapp.db-wal" t="Include" />
       <e p="Dtos" t="Include">
         <e p="UserForLoginDto.cs" t="Include" />
         <e p="UserForRegisterDto.cs" t="Include" />
@@ -32,9 +39,12 @@
         <e p="20200802120915_InitialCreate.Designer.cs" t="Include" />
         <e p="20200809190800_AddedUserEntity.cs" t="Include" />
         <e p="20200809190800_AddedUserEntity.Designer.cs" t="Include" />
+        <e p="20200817155857_ExtendedUserClass.cs" t="Include" />
+        <e p="20200817155857_ExtendedUserClass.Designer.cs" t="Include" />
         <e p="DataContextModelSnapshot.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
+        <e p="Photo.cs" t="Include" />
         <e p="Users.cs" t="Include" />
         <e p="Values.cs" t="Include" />
       </e>

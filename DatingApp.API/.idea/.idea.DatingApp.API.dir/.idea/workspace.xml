@@ -14,35 +14,41 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/20200802120915_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1E566733-E6C2-4253-BBE9-2F663252FF50/FE/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Data/AuthRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/AuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Data/IAuthRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/IDatingRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Values.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dtos/UserForLoginDto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Migrations/20200802120915_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/DatingRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Migrations/20200809190800_AddedUserEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Helpers/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Users.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Migrations/DataContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/20200817155857_ExtendedUserClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/Seed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data/UserSeedData.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Migrations/20200817155857_ExtendedUserClass.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Photo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Models/User.cs" />
-        <option value="$PROJECT_DIR$/Models/Users.cs" />
-        <option value="$PROJECT_DIR$/Data/DataContext.cs" />
         <option value="$PROJECT_DIR$/Data/AuthRepository.cs" />
         <option value="$PROJECT_DIR$/Data/IAuthRepository.cs" />
         <option value="$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" />
@@ -51,10 +57,18 @@
         <option value="$PROJECT_DIR$/DatingApp.API.csproj" />
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Helpers/Extensions.cs" />
-        <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/Models/Users.cs" />
+        <option value="$PROJECT_DIR$/Data/DataContext.cs" />
+        <option value="$PROJECT_DIR$/Models/Photo.cs" />
+        <option value="$PROJECT_DIR$/Data/Seed.cs" />
+        <option value="$PROJECT_DIR$/Data/IDatingRepository.cs" />
+        <option value="$PROJECT_DIR$/Data/DatingRepository.cs" />
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/UsersController.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +135,7 @@
       <workItem from="1597494295438" duration="13524000" />
       <workItem from="1597564780656" duration="1342000" />
       <workItem from="1597572930141" duration="6966000" />
-      <workItem from="1597651605044" duration="5361000" />
+      <workItem from="1597651605044" duration="18689000" />
     </task>
     <servers />
   </component>
@@ -221,10 +235,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1481" height="250" key="GridCell.Tab.4.right/0.0.1536.834/1920.0.1280.994@0.0.1536.834" timestamp="1597427089121" />
-    <state x="529" y="35" key="RiderGenerateDialog" timestamp="1597421067521">
+    <state x="529" y="35" key="RiderGenerateDialog" timestamp="1597686371354">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="529" y="35" key="RiderGenerateDialog/0.0.1536.834/1920.0.1280.994@0.0.1536.834" timestamp="1597421067521" />
+    <state x="529" y="35" key="RiderGenerateDialog/0.0.1536.834/1920.0.1280.994@0.0.1536.834" timestamp="1597686371354" />
     <state x="161" y="0" key="SettingsEditor" timestamp="1596368892910">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
