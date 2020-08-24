@@ -1,6 +1,7 @@
 
 using System.Net;
 using System.Text;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -40,6 +41,7 @@ namespace DatingApp.API
             Newtonsoft.Json.ReferenceLoopHandling.Ignore;
         });
       services.AddCors();
+      services.AddAutoMapper(typeof(DatingRepository).Assembly);
       services.AddTransient<Seed>();
       // scoped means services is created once per request , singleton for each request
       services.AddScoped<IAuthRepository, AuthRepository>();

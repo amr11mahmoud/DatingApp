@@ -11,4 +11,4 @@ namespace DatingApp.API.Data
         public DbSet<Photo> Photos { get; set; }
 
     }
-}
+}  

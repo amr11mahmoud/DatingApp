@@ -28,10 +28,14 @@
       <e p="datingapp.db-shm" t="Include" />
       <e p="datingapp.db-wal" t="Include" />
       <e p="Dtos" t="Include">
+        <e p="PhotosForDetailedDto.cs" t="Include" />
+        <e p="UserForDetailedDto.cs" t="Include" />
+        <e p="UserForListDto.cs" t="Include" />
         <e p="UserForLoginDto.cs" t="Include" />
         <e p="UserForRegisterDto.cs" t="Include" />
       </e>
       <e p="Helpers" t="Include">
+        <e p="AutoMapperProfiles.cs" t="Include" />
         <e p="Extensions.cs" t="Include" />
       </e>
       <e p="Migrations" t="Include">

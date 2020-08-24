@@ -23,6 +23,9 @@
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/168/Future.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/PhotosForDetailedDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/AuthController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dtos/UserForRegisterDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1E566733-E6C2-4253-BBE9-2F663252FF50/FE/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
@@ -36,7 +39,9 @@
     <setting file="file://$PROJECT_DIR$/Data/DatingRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Migrations/20200809190800_AddedUserEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Helpers/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Models/Users.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dtos/UserForListDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Migrations/20200817155857_ExtendedUserClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/947CFA9E-93C5-4D21-8EE6-CD975672A1F8/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
@@ -55,20 +60,24 @@
         <option value="$PROJECT_DIR$/Dtos/UserForLoginDto.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/DatingApp.API.csproj" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/Controllers/ValuesController.cs" />
-        <option value="$PROJECT_DIR$/Helpers/Extensions.cs" />
         <option value="$PROJECT_DIR$/Models/Users.cs" />
-        <option value="$PROJECT_DIR$/Data/DataContext.cs" />
-        <option value="$PROJECT_DIR$/Models/Photo.cs" />
         <option value="$PROJECT_DIR$/Data/Seed.cs" />
         <option value="$PROJECT_DIR$/Data/IDatingRepository.cs" />
         <option value="$PROJECT_DIR$/Data/DatingRepository.cs" />
         <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/Program.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Controllers/AuthController.cs" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
+        <option value="$PROJECT_DIR$/Data/DataContext.cs" />
+        <option value="$PROJECT_DIR$/Dtos/UserForListDto.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Models/Photo.cs" />
+        <option value="$PROJECT_DIR$/Dtos/PhotosForDetailedDto.cs" />
+        <option value="$PROJECT_DIR$/Dtos/UserForDetailedDto.cs" />
+        <option value="$PROJECT_DIR$/Helpers/Extensions.cs" />
+        <option value="$PROJECT_DIR$/Helpers/AutoMapperProfiles.cs" />
       </list>
     </option>
   </component>
@@ -136,6 +145,8 @@
       <workItem from="1597564780656" duration="1342000" />
       <workItem from="1597572930141" duration="6966000" />
       <workItem from="1597651605044" duration="18689000" />
+      <workItem from="1598178471365" duration="7257000" />
+      <workItem from="1598283442194" duration="5255000" />
     </task>
     <servers />
   </component>
